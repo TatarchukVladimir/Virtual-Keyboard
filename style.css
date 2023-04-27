@@ -1,0 +1,97 @@
+.keyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.textArea {
+  display: block;
+  width: 680px;
+  height: 200px;
+}
+
+.board {
+  width: 685px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px 5px;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4c4c4c;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+@media (hover:hover) {
+
+  .key:hover {
+    cursor: pointer;
+    filter: brightness(120%);
+  }
+
+}
+
+.backspace {
+  width: 100px;
+  background: #303030;
+}
+
+.tab {
+  width: 50px;
+  background: #303030;
+}
+
+.delete {
+  width: 45px;
+  background: #303030;
+}
+
+.capslock,
+.shiftleft {
+  width: 100px;
+  background: #303030;
+}
+
+.enter {
+  width: 85px;
+  background: #303030;
+}
+
+.controlleft,
+.controlright {
+  width: 60px;
+  background: #303030;
+}
+
+.space {
+  width: 285px;
+}
+
+.altleft,
+.altright,
+.shiftright,
+.arrowup,
+.arrowleft,
+.arrowdown,
+.arrowright,
+.lang {
+  background: #303030;
+}
+
+.capsMode {
+  text-transform: uppercase;
+}
+
+.capsActive {
+  background: #528fe4;
+}
