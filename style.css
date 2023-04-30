@@ -1,7 +1,9 @@
 .keyContainer {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 685px;
   gap: 10px;
 }
 
@@ -12,11 +14,15 @@
 }
 
 .board {
-  width: 685px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 5px 5px;
+}
+
+.description {
+  order: 3;
+  margin: 0 0 0 auto;
 }
 
 .key {
@@ -88,10 +94,14 @@
   background: #303030;
 }
 
-.capsMode {
-  text-transform: uppercase;
+.capsActive {
+  background: #528fe4;
 }
 
-.capsActive {
+.key__active {
+  background: #528fe4;
+}
+
+.key:active {
   background: #528fe4;
 }
