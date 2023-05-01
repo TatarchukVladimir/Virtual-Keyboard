@@ -1,10 +1,12 @@
 export default class Key {
-    constructor(elem) {
-        let key = document.createElement('div');
-    
-        key.innerText = elem.small; 
-        key.className = `key ${elem.code.toLowerCase()}`;
+  constructor(elem) {
+    this.key = document.createElement('div');
 
-        return key;
-    }
+    this.key.innerText = elem.small;
+    this.key.className = `key ${elem.code.toLowerCase()}`;
+  }
+
+  init() {
+    return this.key;
+  }
 }

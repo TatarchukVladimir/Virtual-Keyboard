@@ -42,7 +42,7 @@
 
   .key:hover {
     cursor: pointer;
-    filter: brightness(120%);
+    filter: brightness(150%);
   }
 
 }
